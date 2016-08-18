@@ -47,7 +47,7 @@ System.out.println(one);
               } if (errors) alert('The following error(s) occurred:\n'+errors);
               document.MM_returnValue = (errors == '');
             }
-</script>
+                </script>
     </head>
     <body>
         <nav class="nav ">
