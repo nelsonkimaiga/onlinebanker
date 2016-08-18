@@ -41,103 +41,29 @@
             <div class="row">
                 <div class="large-6 columns">
                     <form id="form1" name="form1" method="post" action="doRegister.jsp">
-          <table width="80%" border="0" align="center" cellpadding="2" cellspacing="2" style="border:#000000 solid 2px;padding:5px;">
-            <tr>
-              <th colspan="3" bgcolor="#000000" scope="col" style="height:20px;"><font color="#FFFFFF">Customer Registration For new Account</font></th>
-              </tr>
-            <tr>
-              <td width="28%" rowspan="12"><div align="center"><img src="images/kdmconfig.png" width="48" height="48" /></div></td>
-              <td>&nbsp;</td>
-              <td>&nbsp;</td>
-            </tr>
-            <tr>
-              <td width="24%"><div align="left">Username:</div></td>
-              <td width="48%"><label>
-                <div align="left">
-                  <input name="username" type="text" id="username" />
-                  </div>
-              </label></td>
-            </tr>
-            <tr>
-              <td><div align="left">Password:</div></td>
-              <td><div align="left">
-                <input name="password" type="password" id="password" />
-              </div></td>
-            </tr>
-            <tr>
-              <td><div align="left">Security Question: </div></td>
-              <td><div align="left">
-                <select name="question">
-                  <option value="Your First School Name">Your First School Name?</option>
-                  <option value="Your Car Number">Your Car Number?</option>
-                  <option value="Your Mothers Name">Your Mothers Name?</option>
-                  <option value="Favorite Color">Favorite Color?</option>
-                </select>
-              </div></td>
-            </tr>
-            <tr>
-              <td><div align="left">Answer:</div></td>
-              <td><div align="left">
-                <input name="answer" type="text" id="answer" size="30" />
-              </div></td>
-            </tr>
-            <tr>
-              <td><div align="left">Address:</div></td>
-              <td><div align="left">
-                <textarea name="address" id="address"></textarea>
-              </div></td>
-            </tr>
-            <tr>
-              <td><div align="left">E-mail:</div></td>
-              <td><div align="left">
-                <input name="email" type="text" id="email" />
-              </div></td>
-            </tr>
-            <tr>
-              <td><div align="left">Mobile:</div></td>
-              <td><div align="left">
-                <input name="mobile" type="text" id="mobile" />
-              </div></td>
-            </tr>
-            <tr>
-              <td>&nbsp;</td>
-              <td>&nbsp;</td>
-            </tr>
-            <tr>
-              <td><label>
-                <div align="right">
-                  <input type="reset" name="Submit2" value="Reset" />
-                  </div>
-              </label></td>
-              <td colspan="2"><label>
-                
-                    <div align="left">
-                      <input name="Submit" type="submit" onclick="MM_validateForm('username','','R','answer','','R','email','','RisEmail','mobile','','R','address','','R','password','','R');return document.MM_returnValue" value="Create Account"  />
-                    </div>
-                  </label></td>
-              </tr>
-            <tr>
-              <td>&nbsp;</td>
-              <td>&nbsp;</td>
-              <td>&nbsp;</td>
-            </tr>
-          </table>
-                </form> 
+                        <h4>Customer Registration For new Account</h4>
+                        <label>Username</label>
+                        <input name="username" type="text" id="username">
+                        <label>Password</label>
+                        <input name="password" type="password" id="password">
+                        <label>Security Question</label>
+                        <select name="question">
+                            <option value="Your First School Name">Your First School Name?</option>
+                            <option value="Your Car Number">Your Car Number?</option>
+                            <option value="Your Mothers Name">Your Mothers Name?</option>
+                            <option value="Favorite Color">Favorite Color?</option>
+                        </select>
+                        <label>Answer</label>
+                        <input name="answer" type="text" id="answer" size="30">
+                        <label>Address</label>
+                        <textarea name="address" id="address"></textarea>
+                        <label>E-mail:</label>
+                        <input name="email" type="email" id="email">
+                        <label>Mobile Number</label>
+                        <input name="mobile" type="number" id="mobile">
+                        <button type="reset" class="button alert" name="Submit2" value="Reset">Reset</button>
+                        <button name="Submit" class="button success" type="submit" onclick="MM_validateForm('username','','R','answer','','R','email','','RisEmail','mobile','','R','address','','R','password','','R');return document.MM_returnValue" value="Create Account">Create Account</button>
+                    </form>
                 </div>
-            </div>
-        </div>
-               </th>
-        </tr>
-      <tr>
-        <td width="50%">&nbsp;</td>
-        <td width="50%">&nbsp;</td>
-      </tr>
-    </table></td>
-  </tr>
-  <tr style="height:30px;">
-    <td colspan="3" style="background-color:#2175bc;">&nbsp;</td>
-  </tr>
-</table>
-</body>
-
+            </body>
 </html>
