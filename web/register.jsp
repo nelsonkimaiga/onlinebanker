@@ -65,5 +65,10 @@
                         <button name="Submit" class="button success" type="submit" onclick="MM_validateForm('username','','R','answer','','R','email','','RisEmail','mobile','','R','address','','R','password','','R');return document.MM_returnValue" value="Create Account">Create Account</button>
                     </form>
                 </div>
+                
+     <script src="js/vendor/foundation.js"></script>
+     <script src="js/vendor/what-input.js"></script>
+     <script src="js/jquery.countdown.min.js"></script>
+     <script src="js/app.js"></script>
             </body>
 </html>
