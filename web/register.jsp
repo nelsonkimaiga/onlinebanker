@@ -1,4 +1,4 @@
-<%@ page contentType="text/html; charset=iso-8859-1" language="java" import="java.sql.*" errorPage="" %>
+<%@page contentType="text/html;" language="java" import="java.sql.*" errorPage="" %>
 <!DOCTYPE html>
 <html class="no-js" lang="en" dir="ltr">
     <head>
@@ -34,7 +34,7 @@
               } if (errors) alert('The following error(s) occurred:\n'+errors);
               document.MM_returnValue = (errors == '');
             }
-                </script>
+</script>
     </head>
     <body>
         <div class="container">

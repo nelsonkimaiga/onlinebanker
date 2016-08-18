@@ -5,11 +5,19 @@ import java.util.*;
 
 public class BankCommons {
 	
+             String url = "jdbc:mysql://127.0.0.1:3306/bank";
+             String dbName = "bank";
+             String driver = "com.mysql.jdbc.Driver"; //MYSQL Driver/connector added to libary.
+             String userName = "root"; //username to DB
+             String password = "303seminarian"; //password to DB (blank)
+             Statement st;
+             ResultSet rs;
+    
 	public static Connection prepareConn() {
 		Connection c=null;
 		try {
-	    	Class.forName("sun.jdbc.odbc.JdbcOdbcDriver");
-	    	c = DriverManager.getConnection("jdbc:odbc:bank","","");
+	    	Class.forName("com.mysql.jdbc.Driver");
+	    	c = DriverManager.getConnection("jdbc:mysql://127.0.0.1/bank","root","303seminarian");
 		}
 		catch (Exception ex) {
 			System.out.println (ex);
