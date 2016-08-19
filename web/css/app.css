@@ -19,8 +19,8 @@ h6,
     font-family: 'Raleway', serif;
 }
 
-#bodycontent{
-    margin-top: 75spx;
+.bodycontent{
+    margin-top: 150px;
     color: #ffffff;
     font-family: 'Raleway', serif;
     text-align: center;

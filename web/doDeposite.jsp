@@ -52,9 +52,9 @@ int update = BankCommons.update(sql);
             </div>
         </nav>
                 <br>
-        <div class="container" id="bodycontent">
+        <div class="container bodycontent">
             <p>
-                Your Amount is Successfully Deposited into Acount. Your current Balance is: <font color="#FF0000"><%=bal%> Kshs.</font><br/>
+                Your Amount is Successfully Deposited into Account. Your current Balance is: <font color="#FF0000"><%=bal%> Kshs.</font><br/>
                 To Deposit Amount in Your Account, <a href="deposite.jsp">Click Here</a><br/> To Withdraw From Account, <a href="withdraw.jsp">Click Here</a>
             </p>
         </div>

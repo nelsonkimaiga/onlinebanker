@@ -42,13 +42,13 @@ int update = BankCommons.update(sql);
             </div>
         </nav>
                 <br>
-                <div  class="container" id=" bodycontent">
+                <div  class="container bodycontent">
                     <div class="row">
                         <div class="large-6 large-centered columns">
                             <p>
-                                Your account is successfully created. and Account No. is <%=accno%>.
+                                Your account was successfully created. and Account No. is <%=accno%>.
                                 <br/>
-                                To Deposit Amount in Your Account <a href="deposite.jsp">Click Here</a><br/>
+                                To transfer funds, from Your Account <a href="transfer.jsp">Click Here</a><br/>
                             </p>
                         </div>
                     </div>

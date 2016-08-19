@@ -1,4 +1,5 @@
-<%@ page contentType="text/html; charset=iso-8859-1" language="java" import="java.sql.*,java.util.*,com.onlinebank.BankCommons" errorPage="" %>
+<%@page contentType="text/html;" language="java" import="java.sql.*,java.util.*,com.onlinebank.BankCommons" errorPage="" %>
+
 <%
 //java Code
 
@@ -67,13 +68,9 @@ System.out.println(one);
                 </div>
             </div>
         </nav>
-        <div class="container" id="bodycontent">
+        <div class="container bodycontent">
             <div class="row">
-                
-            </div>
-        </div>
-
-	<form id="form1" name="form1" method="post" action="doDeposite.jsp">
+                <form id="form1" name="form1" method="post" action="doDeposite.jsp">
           <label>Deposit Amount in Account</label>
           <label>Account Holder Name </label>
             <input name="uname" type="text" id="uname"  readonly="true" value="<%= (String)session.getAttribute("cust_name")%>">
@@ -89,5 +86,9 @@ System.out.println(one);
             <input name="Amount" type="text" id="Amount" size="10">  
             <button name="Submit" class="button primary" type="submit" onclick="MM_validateForm('Amount','','RisNum');return document.MM_returnValue" value="Deposit Amount">Deposit Amount</button>
         </form>
+            </div>
+        </div>
+
+
     </body>
 </html>

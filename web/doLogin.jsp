@@ -17,7 +17,7 @@ if(ck == true ){
 <!DOCTYPE html>
 <html cla5ss="no-js" lang="en" dir="ltr">
     <head>
-        <title>Online Banker</title>
+        <title>Welcome</title>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -33,22 +33,19 @@ if(ck == true ){
                 <div class="nav-mobile">
                     <ul class="left">
                         <li><a href="account.jsp">Create Account</a></li>
-                        <li><a href="deposite.jsp">Deposit</a></li>
-                        <li><a href="transfer.jsp">Transfer Amount</a></li>
-                        <li><a href="view-reports.jsp">View Report</a></li>
-                        <li><a href="logOff.jsp">LogOut</a></li>
                     </ul>
                     <ul class="right">
                         <li>
-                            <a href="withdraw.jsp">Do Withdraw</a>
-                        </li>
-                        <li>
                             <a href="get-balance.jsp">Get Balance</a>
                         </li>
+                        <li><a href="view-reports.jsp">View Report</a></li>
+                        <li><a href="logOff.jsp">LogOut</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
+                <br>
+                
                 <div class="container">
                     
                 </div>
