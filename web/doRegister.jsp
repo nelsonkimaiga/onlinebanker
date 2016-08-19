@@ -31,7 +31,7 @@ int update = BankCommons.update(sql);
             	<% 
 	if(update == 1){
 	%>
-	Your account has been created Successfully.<br/><a href="index.jsp">Click Here</a> to Login and Activate Your Account.
+	Your account has been created Successfully.<br/><a href="index.html">Click Here</a> to Login and Activate Your Account.
 	<%
 	}else {
 	%>

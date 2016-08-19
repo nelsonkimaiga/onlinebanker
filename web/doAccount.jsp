@@ -1,4 +1,5 @@
-<%@ page contentType="text/html; charset=iso-8859-1" language="java" import="java.sql.*,com.onlinebank.BankCommons" errorPage="" %>
+<%@page contentType="text/html;" language="java" import="java.sql.*,com.onlinebank.BankCommons" errorPage="" %>
+
 <%
 //java Code
 String uname = request.getParameter("uname");
