@@ -25,7 +25,7 @@ int bal = BankCommons.getBalance(bal_sql);
     <body>
         <nav class="nav ">
             <div class="nav-center">
-                <a href="main.jsp">Welcome,&nbsp;<%= (String)session.getAttribute("cust_name")%></a>
+                <a href="">Welcome,&nbsp;<%= (String)session.getAttribute("cust_name")%></a>
                 <div class="nav-mobile">
                     <ul class="left">
                         <li><a href="account.jsp">Create Account</a></li>
@@ -41,7 +41,7 @@ int bal = BankCommons.getBalance(bal_sql);
             </div>
         </nav>
                 <br>
-                <div class="container" id="bodycontent">
+                <div class="container bodycontent">
                     <div class="row">
                         <div class="large-6 large-centered columns"> 
                             <form id="form1" name="form1" method="post" action="">

@@ -29,7 +29,7 @@ if(ck == true ){
     <body>
         <nav class="nav ">
             <div class="nav-center">
-                <a class="toggle-nav" href="main.jsp">Welcome,&nbsp;<%= uname %></a>
+                <a class="toggle-nav" href="">Welcome,&nbsp;<%= uname %></a>
                 <div class="nav-mobile">
                     <ul class="left">
                         <li><a href="account.jsp">Create Account</a></li>
@@ -46,8 +46,23 @@ if(ck == true ){
         </nav>
                 <br>
                 
-                <div class="container">
+                <div class="container bodycontent">
+                    <p>Welcome! Choose from one of the options below</p>
+                    <div class="row">
+                        <div class="large-6 large-centered columns">
+                            
+                            <a href="account.jsp">Create Account</a>
+                            <hr>
+                            <a href="get-balance.jsp">Get Balance</a>
+                            <hr>
+                            
+                            <a href="view-reports.jsp">View Report</a>
+                            <hr>
+                            <a href="logOff.jsp">LogOut</a></li>
                     
+                        </div>
+                        
+                    </div>
                 </div>
     </body>
 </html>

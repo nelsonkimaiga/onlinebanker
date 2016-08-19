@@ -26,7 +26,7 @@ int update = BankCommons.update(sql);
     <body>
         <nav class="nav ">
             <div class="nav-center">
-                <a href="main.jsp">Welcome,&nbsp;<%= (String)session.getAttribute("cust_name")%></a>
+                <a href="">Welcome,&nbsp;<%= (String)session.getAttribute("cust_name")%></a>
                 <div class="nav-mobile">
                     <ul class="left">
                         <li><a href="account.jsp">Create Account</a></li>
@@ -55,8 +55,7 @@ int update = BankCommons.update(sql);
                 </div>
                                 
         <script src="js/vendor/foundation.js"></script>
-        <script src="js/vendor/what-input.js"></script>
-        <script src="js/jquery.countdown.min.js"></script>
+        <script src="js/vendor/what-input.min.js"></script>
         <script src="js/app.js"></script>
     </body>
 </html>

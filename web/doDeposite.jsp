@@ -36,7 +36,7 @@ int update = BankCommons.update(sql);
     <body>
         <nav class="nav ">
             <div class="nav-center">
-                <a href="main.jsp">Welcome,&nbsp;<%= (String)session.getAttribute("cust_name")%></a>
+                <a href="">Welcome,&nbsp;<%= (String)session.getAttribute("cust_name")%></a>
                 <div class="nav-mobile">
                     <ul class="left">
                         <li><a href="account.jsp">Create Account</a></li>
