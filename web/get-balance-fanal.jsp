@@ -33,7 +33,7 @@ int bal = BankCommons.getBalance(bal_sql);
                     </ul>
                     <ul class="right">
                         <li><a href="get-balance.jsp">Get Balance</a></li>
-                        <li><a href="transfer.jsp">Transfer Amount</a></li>
+                        <!--<li><a href="transfer.jsp">Transfer Amount</a></li>-->
                         <li><a href="view-reports.jsp">View Report</a></li>
                         <li><a href="logOff.jsp">LogOut</a></li>
                     </ul>
@@ -52,7 +52,7 @@ int bal = BankCommons.getBalance(bal_sql);
                               <p>&nbsp;<%=accNo%></p>
                               <label>Current Balance </label>
                               <%=bal%> Kshs.
-                              <p>&nbsp;If you want to Deposite then <a href="deposite.jsp">
+                              <p>&nbsp;If you want to Deposit then <a href="deposite.jsp">
                                       Click Here</a>
                             </form>
                         </div>

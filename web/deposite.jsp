@@ -61,7 +61,7 @@ System.out.println(one);
                     </ul>
                     <ul class="right">
                         <li><a href="get-balance.jsp">Get Balance</a></li>
-                        <li><a href="transfer.jsp">Transfer Amount</a></li>
+                        <!--<li><a href="transfer.jsp">Transfer Amount</a></li>-->
                         <li><a href="view-reports.jsp">View Report</a></li>
                         <li><a href="logOff.jsp">LogOut</a></li>
                     </ul>

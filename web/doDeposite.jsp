@@ -1,4 +1,5 @@
-<%@ page contentType="text/html; charset=iso-8859-1" language="java" import="java.sql.*,java.util.*,com.onlinebank.BankCommons" errorPage="" %>
+<%@page contentType="text/html;" language="java" import="java.sql.*,java.util.*,com.onlinebank.BankCommons" errorPage="" %>
+
 <%
 //java Code
 String op = "DEPOSITE";
@@ -44,7 +45,7 @@ int update = BankCommons.update(sql);
                     </ul>
                     <ul class="right">
                         <li><a href="get-balance.jsp">Get Balance</a></li>
-                        <li><a href="transfer.jsp">Transfer Amount</a></li>
+                        <!--<li><a href="transfer.jsp">Transfer Amount</a></li>-->
                         <li><a href="view-reports.jsp">View Report</a></li>
                         <li><a href="logOff.jsp">LogOut</a></li>
                     </ul>
